@@ -1,0 +1,35 @@
+.carous {
+    width: 75%;
+    height: 75%;
+    border: 1.5px solid black;
+    box-shadow: 10px 10px 20px rgba(30, 28, 28, 0.5);
+    border-radius: 15px;
+  }
+  .colorbox {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    box-shadow: 0px 0px 8px rgba(27, 24, 24, 0.5);
+    border: 1px solid rgb(24, 19, 19);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  .colorbox:hover {
+    transform: scale(1.1);
+  }
+  .btn-success {
+    background-color: #97c054;
+    color: #f1e9e9;
+    border: 1px solid #88d971;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px rgba(28, 26, 26, 0.5);
+    padding: 10px;
+    max-width: 150px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-success:hover {
+    background-color: #bc5883;
+  }
